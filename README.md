@@ -20,11 +20,15 @@ a list of papers related to llm inference, including kernels, framework design, 
     * MiniMax-01: scaling foundation models with lightning attention (2025)
 
 * Long Context Attns 
+    * RingAttn: with blockwise transformers for near-infinite context(2023, UC Berkely)
     * Efficient Streamning Language Models with attention sinks (2024, SongHan)
     * DuoAttention: efficient long-context llm inference with retrieval and streaming heads (2024, Songhan)
+    * MInference: To speedup long-context llm's inference with dynamic sparse attn (2024, Microsoft)
+    * MoA: Mixture of sparse attn for llm compression (2024, Tinghua)
     * Xattention: block sparse attention with antidiagonal scoring (2025, Songhan)
     * SpargeAttn: accurate sparse attention accelerating any model inference (2025, SageAI)
-    * 
+    * FlexPrefill: a context-aware sparse attn for efficient long-seq inference (2025, Peking)
+    * SageAttn-2: efficient attn with thorough outlier smoothing and per-thread int4 quant(2025, Tinghua)
 
 ## MoEs 
 
